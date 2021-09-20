@@ -14,5 +14,5 @@ function calc(){
 
 function back(){
     temp = document.getElementById("textview").value;
-    document.getElementById("textview").value= temp.substring(0, temp.length-1);
+    document.getElementById("textview").value = temp.substring(0, temp.length-1);
 }
