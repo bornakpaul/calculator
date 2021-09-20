@@ -7,5 +7,12 @@ function clean(){
 }
 
 function calc(){
-    
+    temp = document.getElementById("textview").value;
+    result = eval(temp);
+    document.getElementById("textview").value=result;
+}
+
+function back(){
+    temp = document.getElementById("textview").value;
+    document.getElementById("textview").value= temp.substring(0, temp.length-1);
 }
