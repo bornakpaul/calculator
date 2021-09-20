@@ -1,15 +1,15 @@
 *{
     padding: 0;
     margin: 0;
-    /* background-color: aqua; */
 }
 
 .container{
+    padding: 5;
+    margin: 5;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
 }
 
 .textview {
@@ -20,7 +20,8 @@
     text-align: right;
     border-radius: 4px;
     border-color: transparent;
-    background-color: rgb(239, 239, 239);
+    color: white;
+    background-color: rgb(147, 147, 236);
 }
 
 .button{
@@ -29,8 +30,10 @@
     font-size: 25pt;
     margin: 2pt;
     cursor: pointer;
+    color: white;
     border-radius: 4px;
     border-color: transparent;
+    background-color: rgb(147, 147, 236);
 }
 
 .button-zero{
@@ -39,8 +42,10 @@
     font-size: 25pt;
     margin: 2pt;
     cursor: pointer;
+    color: white;
     border-radius: 4px;
     border-color: transparent;
+    background-color: rgb(147, 147, 236);
 }
 
 .button-equal{
@@ -49,6 +54,8 @@
     font-size: 25pt;
     margin: 2pt;
     cursor: pointer;
+    color: white;
     border-radius: 4px;
     border-color: transparent;
+    background-color: rgb(147, 147, 236);
 }
