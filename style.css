@@ -13,12 +13,14 @@
 }
 
 .textview {
-    width: 220pt;
+    width: 216pt;
     font-size: 25pt;
     margin: 2pt;
     resize: none;
     text-align: right;
     border-radius: 4px;
+    border-color: transparent;
+    background-color: rgb(239, 239, 239);
 }
 
 .button{
@@ -27,6 +29,8 @@
     font-size: 25pt;
     margin: 2pt;
     cursor: pointer;
+    border-radius: 4px;
+    border-color: transparent;
 }
 
 .button-zero{
@@ -35,6 +39,8 @@
     font-size: 25pt;
     margin: 2pt;
     cursor: pointer;
+    border-radius: 4px;
+    border-color: transparent;
 }
 
 .button-equal{
@@ -43,4 +49,6 @@
     font-size: 25pt;
     margin: 2pt;
     cursor: pointer;
+    border-radius: 4px;
+    border-color: transparent;
 }
