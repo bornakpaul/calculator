@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.textview {
+    width: 220pt;
+    font-size: 25pt;
+    margin: 2pt;
+    resize: none;
+}
+
+.button{
+    width: 50pt;
+    height: 50pt;
+    font-size: 25pt;
+    margin: 2pt;
+    cursor: pointer;
+}
+
+.button-zero{
+    width: 105pt;
+    height: 50pt;
+    font-size: 25pt;
+    margin: 2pt;
+    cursor: pointer;
+}
+
+.button-equal{
+    width: 50pt;
+    height: 105pt;
+    font-size: 25pt;
+    margin: 2pt;
+    cursor: pointer;
+}
