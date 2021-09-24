@@ -22,7 +22,7 @@ function insert(num)
 	document.getElementById("textview").value += num;
 }
 
-function che(){
+function calculation(){
 		var res = [];
 		var answer;
 		
@@ -47,9 +47,9 @@ function che(){
 		}
 }
 		
-function calc(){	
-var a = che()
-document.getElementById('textview').value = a; 
+function calc(){
+var ans = calculation()
+document.getElementById('textview').value = ans; 
 }
 	
 function clean()
