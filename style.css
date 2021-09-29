@@ -3,6 +3,24 @@
     margin: 0;
     color: white;
 }
+body{
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+.title{
+    text-align: center;
+    font-size: 42px;
+    color: rgb(147, 147, 236);
+}
+.footer{
+    text-align: center;
+    font-size: 18px;
+    color: rgb(209, 209, 209);
+}
 
 .container{
     padding: 5;
