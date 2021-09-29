@@ -9,5 +9,5 @@
     "icons":{
         "128" : "calculator_logo(128x128px).png"
     },
-    "permissions":["activeTab"]
+    "description":"Calculator For Arithmetic Process"
 }
